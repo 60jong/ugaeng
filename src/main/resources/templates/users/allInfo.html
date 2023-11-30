@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/bootstrap.min.css}"
+          href="/css/bootstrap.min.css" rel="stylesheet">
+    <title>UGAENG</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="py-5 text-center">
+        <h2>회원 목록</h2>
+    </div>
+
+    <!-- 추가 -->
+    <div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>USERNAME</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="user : ${allInfo}">
+                <td th:text="${user.userId}"></td>
+                <td th:text="${user.username}"></td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</div> <!-- /container -->
+
+</body>
+</html>

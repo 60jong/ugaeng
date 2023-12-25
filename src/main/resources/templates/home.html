@@ -3,27 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/static/css/style.css" th:href="@{/css/style.css}">
   <title>ugaeng</title>
 </head>
 <body>
 
-  <header class="heaer">
-    <div class="logo-center">
-      <a href="/"><img src="/img/ugaeng_logo.png"></a>
-    </div>
-    <div class="signin">
-      <p><a th:href="@{/auth/signin}">Sign in</a></p>
-    </div>
+  <header class="header">
+    <nav class="nav-toolbar">
+      <i class='bx bx-menu'></i>
+      <span class="auth-btn">
+        <a th:href="@{/auth/signin}">Sign in</a>
+        <a th:href="@{/auth/signup}">Sign up</a>
+      </span>
+    </nav>
 
-    <div class="signup">
-      <p><a th:href="@{/auth/signin}">Sign up</a></p>
-    </div>
+    <nav class="nav-logo">
+       <span class="logo-center">
+        <a href="/"><img src="/static/img/ugaeng_logo.png" th:src="@{/img/ugaeng_logo.png}"></a>
+      </span>
+    </nav>
   </header>
 
   <main>
 
   </main>
 
+  <div th:replace="~{/fragment/footer :: copy}"></div>
 </body>
 </html>

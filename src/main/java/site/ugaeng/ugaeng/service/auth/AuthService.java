@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import site.ugaeng.ugaeng.domain.user.User;
 import site.ugaeng.ugaeng.service.user.UserService;
-import site.ugaeng.ugaeng.web.SignInResponse;
+import site.ugaeng.ugaeng.web.response.SignInResponse;
 import site.ugaeng.ugaeng.web.response.SignUpResponse;
 
 /**
@@ -20,6 +20,7 @@ public class AuthService {
 
     private final UserService userService;
 
+    @Transactional
     public SignUpResponse signUp(SignUpRequest request) {
 
         validateSignUp(request);
@@ -41,7 +42,7 @@ public class AuthService {
 
         validateSignIn(request);
 
-        User user = userService.find(request.getUsername());
+        User user = userService.findByUsername(request.getUsername());
         return new SignInResponse(user);
     }
 
@@ -53,6 +54,6 @@ public class AuthService {
     }
 
     private boolean usernameExists(String username) {
-        return userService.exist(username);
+        return userService.existsByUsername(username);
     }
 }

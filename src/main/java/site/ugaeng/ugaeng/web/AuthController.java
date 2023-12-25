@@ -12,6 +12,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import site.ugaeng.ugaeng.service.auth.AuthService;
 import site.ugaeng.ugaeng.service.auth.SignInRequest;
 import site.ugaeng.ugaeng.service.auth.SignUpRequest;
+import site.ugaeng.ugaeng.web.response.SignInResponse;
 
 @Slf4j
 @RequiredArgsConstructor

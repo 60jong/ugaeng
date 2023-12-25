@@ -2,16 +2,28 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <link th:href="@{/css/bootstrap.min.css}"
-          href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/static/css/style.css" th:href="@{/css/style.css}">
     <title>UGAENG</title>
 </head>
 <body>
 
-<div class="container">
+<header class="header">
 
-    <div class="py-5 text-center">
-        <h2>회원 목록</h2>
+    <nav class="nav-toolbar">
+        <span class="logo-left">
+            <a href="/"><img src="/static/img/ugaeng_logo.png" th:src="@{/img/ugaeng_logo.png}"></a>
+        </span>
+        <span class="profile-btn">
+            <img src="https://avatars.githubusercontent.com/u/93924890?v=4"></img>
+        </span>
+    </nav>
+
+</header>
+
+<div class="component">
+    <h2>회원 목록</h2>
     </div>
 
     <!-- 추가 -->
@@ -33,7 +45,6 @@
         </table>
     </div>
 
-</div> <!-- /container -->
 
 </body>
 </html>

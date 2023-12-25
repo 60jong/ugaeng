@@ -1,4 +1,4 @@
-package site.ugaeng.ugaeng.web;
+package site.ugaeng.ugaeng.web.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -4,10 +4,6 @@ import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import site.ugaeng.ugaeng.domain.item.Item;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
@@ -21,8 +17,7 @@ public class User {
     @Embedded
     private AuthenticationInfo authInfo;
 
-    @Embedded
-    private PersonalInfo personalInfo;
+    private Integer point = 0;
 
     public User(String username, String password) {
         this.authInfo = new AuthenticationInfo(username, password);
@@ -31,5 +26,21 @@ public class User {
     //== GETTER ==//
     public String getUsername() {
         return this.authInfo.getUsername();
+    }
+
+    public boolean canPay(int price) {
+        return point >= price;
+    }
+
+    public void pay(int price) {
+        this.point -= price;
+    }
+
+    public void changeUsername(String requestName) {
+        this.authInfo = new AuthenticationInfo(requestName, authInfo.getPassword());
+    }
+
+    public void plusPoint(int point) {
+        this.point += point;
     }
 }

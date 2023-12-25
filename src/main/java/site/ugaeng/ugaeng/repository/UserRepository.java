@@ -34,4 +34,12 @@ public class UserRepository {
     public Optional<User> findById(Long userId) {
         return Optional.ofNullable(em.find(User.class, userId));
     }
+
+    public boolean existsByUsername(String username) {
+        return em.createQuery("select u from User u where u.authInfo.username = :username", User.class)
+                .setParameter("username", username)
+                .getResultStream()
+                .findAny()
+                .isPresent();
+    }
 }

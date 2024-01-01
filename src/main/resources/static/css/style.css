@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
     background: #0d1117;
+    color: #fafafa;
 }
 
 .center-body {
@@ -130,14 +131,20 @@
     background: transparent;
     font-size: 40px;
     color: #fafafa;
+    margin: 10px;
+}
+
+#post-icon {
+    font-size: 36px;
 }
 
 .nav-toolbar .logo-left img {
     height: 24px;
+    margin: 16px;
 }
 
 .header .auth-btn {
-    margin: 10px;
+    margin: 16px;
     float: right;
 }
 
@@ -147,7 +154,7 @@
 }
 
 .header .profile-btn {
-    margin: 10px;
+    margin: 16px;
     float: right;
 }
 
@@ -179,4 +186,38 @@
 
 .layout-footer p {
     font-size: 12px;
+}
+
+.table table {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+.table th, td {
+    text-align: center;
+    border: 1px solid #444444;
+    padding: 8px;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    margin: auto;
+    width: 20%;
+}
+
+.form h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/static/css/style.css" th:href="@{/css/style.css}">
+    <title>UGAENG</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <nav class="nav-toolbar">
+            <span class="logo-left">
+                <a href="/"><img src="/static/img/ugaeng_logo.png" th:src="@{/img/ugaeng_logo.png}"></a>
+            </span>
+            <span class="profile-btn">
+                <img src="https://avatars.githubusercontent.com/u/93924890?v=4"></img>
+            </span>
+        </nav>
+
+    </header>
+
+    <div class="table">
+        <div>
+            <h2>회원 목록</h2>
+        </div>
+
+        <div>
+            <table >
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>USERNAME</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="userInfo : ${allUserInfos}">
+                    <td th:text="${userInfo.userId}"></td>
+                    <td>
+                        <a th:text="${userInfo.username}" th:href="@{/users/{userId}/info(userId=${userInfo.userId})}"></a>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+</body>
+</html>

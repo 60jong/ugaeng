@@ -6,7 +6,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import site.ugaeng.ugaeng.domain.user.User;
 import site.ugaeng.ugaeng.service.ProfileParam;
-import site.ugaeng.ugaeng.service.auth.SignInRequest;
 import site.ugaeng.ugaeng.service.user.UserService;
 import site.ugaeng.ugaeng.web.response.UserInfoResponse;
 import site.ugaeng.ugaeng.web.response.UserProfileResponse;
@@ -31,12 +30,12 @@ public class UserController {
 
     @GetMapping("")
     public String all(Model model) {
-        List<UserInfoResponse> allInfo = userService.findAll()
+        List<UserInfoResponse> allUserInfos = userService.findAll()
                                                     .stream()
                                                     .map(UserInfoResponse::new)
                                                     .toList();
-        model.addAttribute("allInfo", allInfo);
-        return "users/allInfo";
+        model.addAttribute("allUserInfos", allUserInfos);
+        return "users/allUsers";
     }
 
     @GetMapping("/{userId}/profile")

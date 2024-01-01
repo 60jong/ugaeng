@@ -31,9 +31,14 @@
     <div class="row">
         <div class="col">
             <button class="w-100 btn btn-secondary btn-lg"
-                    onclick="location.href='items.html'"
                     th:onclick="|location.href='@{/users}'|"
                     type="button">목록으로</button>
+        </div>
+
+        <div class="col">
+            <button class="w-100 btn btn-secondary btn-lg"
+                    th:onclick="|location.href='@{/users/{userId}/profile/edit(userId=${userInfoResponse.userId})}'|"
+                    type="button">수정</button>
         </div>
     </div>
 

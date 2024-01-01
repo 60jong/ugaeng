@@ -13,17 +13,8 @@ import java.util.List;
 @Controller
 public class MainController {
 
-    private final UserRepository userRepository;
-
     @GetMapping("/")
-    public String home(Model model) {
-
-        List<UserInfoResponse> users = userRepository.findAll()
-                .stream()
-                .map(UserInfoResponse::new)
-                .toList();
-
-        model.addAttribute("users", users);
+    public String home() {
         return "home";
     }
 

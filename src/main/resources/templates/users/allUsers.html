@@ -13,7 +13,7 @@
 
         <nav class="nav-toolbar">
             <span class="logo-left">
-                <a href="/"><img src="/static/img/ugaeng_logo.png" th:src="@{/img/ugaeng_logo.png}"></a>
+                <a href="/"><img src="/static/img/ugaeng_logo.svg" th:src="@{/img/ugaeng_logo.svg}"></a>
             </span>
             <span class="profile-btn">
                 <img src="https://avatars.githubusercontent.com/u/93924890?v=4"></img>
@@ -36,10 +36,10 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr th:each="userInfo : ${allUserInfos}">
-                    <td th:text="${userInfo.userId}"></td>
+                <tr th:each="userResponse : ${userPage}">
+                    <td th:text="${userResponse.userId}"></td>
                     <td>
-                        <a th:text="${userInfo.username}" th:href="@{/users/{userId}/info(userId=${userInfo.userId})}"></a>
+                        <a th:text="${userResponse.username}" th:href="@{/users/{userId}/info(userId=${userResponse.userId})}"></a>
                     </td>
                 </tr>
                 </tbody>

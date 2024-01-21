@@ -20,15 +20,17 @@
 
     <nav class="nav-logo">
        <span class="logo-center">
-        <a href="/"><img src="/static/img/ugaeng_logo.png" th:src="@{/img/ugaeng_logo.png}"></a>
+        <a href="/"><img src="/static/img/ugaeng_logo.svg" th:src="@{/img/ugaeng_logo.svg}"></a>
       </span>
     </nav>
   </header>
 
-  <main>
-
+  <main class="home-main">
+    <div>
+      <img src="https://post-stat-view.do-main.site/api/v2/velog-stat/view?username=rudwhd515&show_visitors=true" />
+    </div>
   </main>
 
-  <div th:replace="~{/fragment/footer :: copy}"></div>
+<!--  <div th:replace="~{/fragment/footer :: copy}"></div>-->
 </body>
 </html>

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Page;
 import site.ugaeng.ugaeng.web.response.PostPaginationResponse;
 
 import java.util.List;
@@ -36,7 +37,7 @@ class PostPaginationRepositoryTest {
         int size = 10;
 
         // when
-        List<PostPaginationResponse> posts = postPaginationRepository.findAllByCursor(cursorPostId, size);
+        Page<PostPaginationResponse> posts = postPaginationRepository.findPageByCursor(cursorPostId, size);
 
         // then
 

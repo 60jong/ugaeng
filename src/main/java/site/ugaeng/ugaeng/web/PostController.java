@@ -1,6 +1,7 @@
 package site.ugaeng.ugaeng.web;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,7 +27,7 @@ public class PostController {
                            @RequestParam(required = false) Long cursor,
                            @RequestParam(defaultValue = "10") int size
     ) {
-        List<PostPaginationResponse> postPages = postPaginationRepository.findAllByCursor(cursor, size);
+        Page<PostPaginationResponse> postPages = postPaginationRepository.findPageByCursor(cursor, size);
 
         model.addAttribute("postPages", postPages);
 

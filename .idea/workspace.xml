@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67fb6ef6-4ba3-4a18-af1c-0ef13596c24d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/api/AuthApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/api/dto/UserIdResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/api/dto/UsernameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/web/AuthWebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/web/dto/SignInRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/web/dto/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/entity/AuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/dto/SignInParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/dto/SignUpParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/service/dto/UserJoinParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/web/dto/UserJoinRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/application-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/img/auth.ugaeng_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/templates/signInForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/templates/signUpForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/site/ugaeng/auth/AuthApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/UgaengApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/ChangingToIdenticalUsernameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/DuplicateUsernameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/UgaengException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/dto/UserIdResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/dto/UsernameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/web/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/game.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/game_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/localhosting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/localhosting_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/pay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/pay_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/poststatview.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/poststatview_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/ugaeng_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/ugaeng_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ugaeng.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pbUJayiNst785RRIluquwCRgjb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/유경종/dev/service/ugaeng/services/auth&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\auth" />
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main\resources" />
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main\java\site\ugaeng\ugaeng" />
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng" />
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\streaming" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\auth\src" />
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67fb6ef6-4ba3-4a18-af1c-0ef13596c24d" name="Changes" comment="" />
+      <created>1733034197258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733034197258</updated>
+      <workItem from="1733034198270" duration="2239000" />
+      <workItem from="1733038600521" duration="1951000" />
+      <workItem from="1733147250056" duration="329000" />
+      <workItem from="1733147961987" duration="137000" />
+      <workItem from="1733411629996" duration="56000" />
+      <workItem from="1733416726744" duration="258000" />
+      <workItem from="1733821670649" duration="615000" />
+      <workItem from="1733895748727" duration="2342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

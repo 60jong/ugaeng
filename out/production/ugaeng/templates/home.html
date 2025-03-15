@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ugaeng</title>
+  <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<nav>
+  <div class="nav-buttons">
+    <div th:if="${username != null}">
+      <span>Hello, <b th:text="${username}"></b></span>
+    </div>
+    <div th:unless="${username != null}">
+      <a href="#" class="nav-link" th:href="@{http://auth.ugaeng.site/signin}">Sign in</a>
+      <a href="#" class="nav-link" th:href="@{http://auth.ugaeng.site/signup}">Sign up</a>
+    </div>
+  </div>
+</nav>
+<div class="logo-container">
+  <img th:src="@{/img/ugaeng_logo.png}" alt="ugaeng Logo" class="logo">
+</div>
+<main>
+  <div class="grid">
+    <div class="grid-item">
+      <img th:src="@{/img/localhosting.svg}"/>
+      <img height="20" th:src="@{/img/localhosting_logo.png}"/>
+    </div>
+    <div class="grid-item">
+      <img th:src="@{/img/game.svg}"/>
+      <img height="15" th:src="@{/img/game_logo.png}"/>
+    </div>
+    <div class="grid-item">
+      <img th:src="@{/img/pay.svg}"/>
+      <img height="15" th:src="@{/img/pay_logo.png}"/>
+    </div>
+    <div class="grid-item">
+      <img th:src="@{/img/poststatview.svg}"/>
+      <img height="20" th:src="@{/img/poststatview_logo.png}"/>
+    </div>
+
+  </div>
+</main>
+</body>
+</html>

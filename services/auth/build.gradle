@@ -38,3 +38,10 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// Execute a jar file
+jar {
+    manifest {
+        attributes 'Main-Class': 'site.ugaeng.auth.AuthApplication'
+    }
+}

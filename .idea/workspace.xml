@@ -5,67 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67fb6ef6-4ba3-4a18-af1c-0ef13596c24d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/AuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/api/AuthApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/api/dto/UserIdResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/api/dto/UsernameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/web/AuthWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/web/dto/SignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/controller/web/dto/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/entity/AuthInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/dto/SignInParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/auth/service/dto/SignUpParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/repository/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/service/dto/UserJoinParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/site/ugaeng/auth/user/web/dto/UserJoinRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/application-prod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/img/auth.ugaeng_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/templates/signInForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/templates/signUpForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/site/ugaeng/auth/AuthApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/UgaengApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/ChangingToIdenticalUsernameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/DuplicateUsernameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/ExceptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/UgaengException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/dto/UserIdResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/service/auth/dto/UsernameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/java/site/ugaeng/ugaeng/web/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/game.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/game_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/localhosting.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/localhosting_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/pay.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/pay_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/poststatview.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/poststatview_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/ugaeng_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/ugaeng_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ugaeng.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/jdgolf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/ugaeng/src/main/resources/static/img/jdgolf_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth/src/test/java/site/ugaeng/auth/AuthApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ugaeng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ugaeng.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,36 +39,75 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/유경종/dev/service/ugaeng/services/auth&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthApplication.executor": "Run",
+    "Application.UgaengApplication.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/유경종/dev/service/ugaeng/services/caas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\auth\src\main\resources\static\img" />
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main\resources\static\img" />
       <recent name="C:\Users\유경종\dev\service\ugaeng\services\auth" />
       <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main\resources" />
       <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main\java\site\ugaeng\ugaeng" />
-      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng" />
-      <recent name="C:\Users\유경종\dev\service\ugaeng\services\streaming" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main\resources\static\img" />
       <recent name="C:\Users\유경종\dev\service\ugaeng\services\auth\src" />
       <recent name="C:\Users\유경종\dev\service\ugaeng\services\ugaeng\src\main" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.UgaengApplication">
+    <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.ugaeng.auth.AuthApplication" />
+      <module name="ugaeng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.ugaeng.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UgaengApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.ugaeng.ugaeng.UgaengApplication" />
+      <module name="ugaeng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.ugaeng.ugaeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UgaengApplication" />
+        <item itemvalue="Application.AuthApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -147,6 +133,16 @@
       <workItem from="1733416726744" duration="258000" />
       <workItem from="1733821670649" duration="615000" />
       <workItem from="1733895748727" duration="2342000" />
+      <workItem from="1735016353764" duration="1335000" />
+      <workItem from="1735206509605" duration="149000" />
+      <workItem from="1735210824971" duration="115000" />
+      <workItem from="1735220411444" duration="2852000" />
+      <workItem from="1735244856412" duration="750000" />
+      <workItem from="1735293169929" duration="5000" />
+      <workItem from="1735298323935" duration="2581000" />
+      <workItem from="1736066294933" duration="28000" />
+      <workItem from="1737866762456" duration="232000" />
+      <workItem from="1738679826358" duration="875000" />
     </task>
     <servers />
   </component>
